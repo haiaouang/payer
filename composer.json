@@ -1,0 +1,32 @@
+{
+    "name": "haiaouang/payer",
+    "description": "The Hht Payer package.",
+    "license": "MIT",
+    "homepage": "https://github.com/haiaouang/payer",
+    "keywords": ["laravel", "pay"],
+    "type": "library",
+    "support": {
+        "issues": "https://github.com/haiaouang/payer",
+        "source": "https://github.com/haiaouang/payer"
+    },
+    "authors": [
+        {
+            "name": "HaitaoHuang",
+            "email": "h280338871@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+	"haiaouang/support": "^1.0.2",
+	"haiaouang/alipay": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hht\\Payer\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
