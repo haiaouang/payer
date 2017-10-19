@@ -48,7 +48,7 @@ class PayerAdapter implements PayerContract
 	/**
      * Create sdk order.
      *
-     * @param  \Hht\Support\Contracts\Message  $message
+     * @param  \Hht\Support\Contracts\Order $order
      * @return \Hht\Support\Contracts\Result
      */
 	public function createSDKOrder(Order $order)
